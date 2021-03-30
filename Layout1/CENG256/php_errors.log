@@ -1,0 +1,57 @@
+[22-Mar-2020 13:37:55] PHP Notice:  Undefined index: gender in /home/students/n01274584/public_html/Lab5.php on line 16
+[22-Mar-2020 13:37:55] PHP Stack trace:
+[22-Mar-2020 13:37:55] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[22-Mar-2020 13:37:55] PHP Notice:  Undefined index: son in /home/students/n01274584/public_html/Lab5.php on line 20
+[22-Mar-2020 13:37:55] PHP Stack trace:
+[22-Mar-2020 13:37:55] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[22-Mar-2020 13:37:55] PHP Notice:  Undefined index: son in /home/students/n01274584/public_html/Lab5.php on line 26
+[22-Mar-2020 13:37:55] PHP Stack trace:
+[22-Mar-2020 13:37:55] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[22-Mar-2020 13:37:55] PHP Warning:  Invalid argument supplied for foreach() in /home/students/n01274584/public_html/Lab5.php on line 27
+[22-Mar-2020 13:37:55] PHP Stack trace:
+[22-Mar-2020 13:37:55] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[22-Mar-2020 13:38:16] PHP Notice:  Undefined index: gender in /home/students/n01274584/public_html/Lab5.php on line 16
+[22-Mar-2020 13:38:16] PHP Stack trace:
+[22-Mar-2020 13:38:16] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[22-Mar-2020 13:38:16] PHP Notice:  Undefined index: son in /home/students/n01274584/public_html/Lab5.php on line 20
+[22-Mar-2020 13:38:16] PHP Stack trace:
+[22-Mar-2020 13:38:16] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[22-Mar-2020 13:38:16] PHP Notice:  Undefined index: son in /home/students/n01274584/public_html/Lab5.php on line 26
+[22-Mar-2020 13:38:16] PHP Stack trace:
+[22-Mar-2020 13:38:16] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[22-Mar-2020 13:38:16] PHP Warning:  Invalid argument supplied for foreach() in /home/students/n01274584/public_html/Lab5.php on line 27
+[22-Mar-2020 13:38:16] PHP Stack trace:
+[22-Mar-2020 13:38:16] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[22-Mar-2020 13:38:40] PHP Notice:  Undefined variable: num in /home/students/n01274584/public_html/Lab4.php on line 42
+[22-Mar-2020 13:38:40] PHP Stack trace:
+[22-Mar-2020 13:38:40] PHP   1. {main}() /home/students/n01274584/public_html/Lab4.php:0
+[22-Mar-2020 13:50:23] PHP Notice:  Undefined variable: num in /home/students/n01274584/public_html/Lab4.php on line 42
+[22-Mar-2020 13:50:23] PHP Stack trace:
+[22-Mar-2020 13:50:23] PHP   1. {main}() /home/students/n01274584/public_html/Lab4.php:0
+[02-Apr-2020 01:11:21] PHP Notice:  Undefined variable: num in /home/students/n01274584/public_html/Lab5.php on line 42
+[02-Apr-2020 01:11:21] PHP Stack trace:
+[02-Apr-2020 01:11:21] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[02-Apr-2020 01:11:31] PHP Notice:  Undefined variable: num in /home/students/n01274584/public_html/Lab5.php on line 42
+[02-Apr-2020 01:11:31] PHP Stack trace:
+[02-Apr-2020 01:11:31] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[06-Apr-2020 16:45:32] PHP Notice:  Undefined variable: num in /home/students/n01274584/public_html/Lab5.php on line 42
+[06-Apr-2020 16:45:32] PHP Stack trace:
+[06-Apr-2020 16:45:32] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[06-Apr-2020 18:05:43] PHP Notice:  Undefined variable: num in /home/students/n01274584/public_html/Lab5.php on line 42
+[06-Apr-2020 18:05:43] PHP Stack trace:
+[06-Apr-2020 18:05:43] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[07-Apr-2020 09:24:58] PHP Notice:  Undefined index: son1 in /home/students/n01274584/public_html/Lab5.php on line 34
+[07-Apr-2020 09:24:58] PHP Stack trace:
+[07-Apr-2020 09:24:58] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[07-Apr-2020 09:24:58] PHP Notice:  Undefined index: son1 in /home/students/n01274584/public_html/Lab5.php on line 35
+[07-Apr-2020 09:24:58] PHP Stack trace:
+[07-Apr-2020 09:24:58] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[07-Apr-2020 09:24:58] PHP Notice:  Undefined variable: num in /home/students/n01274584/public_html/Lab5.php on line 42
+[07-Apr-2020 09:24:58] PHP Stack trace:
+[07-Apr-2020 09:24:58] PHP   1. {main}() /home/students/n01274584/public_html/Lab5.php:0
+[07-Apr-2020 09:29:40] PHP Notice:  Undefined variable: num in /home/students/n01274584/public_html/Lab4.php on line 42
+[07-Apr-2020 09:29:40] PHP Stack trace:
+[07-Apr-2020 09:29:40] PHP   1. {main}() /home/students/n01274584/public_html/Lab4.php:0
+[09-Apr-2020 22:51:26] PHP Notice:  Undefined variable: num in /home/students/n01274584/public_html/Lab4.php on line 42
+[09-Apr-2020 22:51:26] PHP Stack trace:
+[09-Apr-2020 22:51:26] PHP   1. {main}() /home/students/n01274584/public_html/Lab4.php:0

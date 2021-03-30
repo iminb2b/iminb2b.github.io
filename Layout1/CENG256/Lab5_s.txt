@@ -1,0 +1,35 @@
+
+<code><span style="color: #000000">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><span style="color: #0000BB">&lt;?php<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//2.a<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$x</span><span style="color: #007700">=</span><span style="color: #DD0000">"Hi,&nbsp;my&nbsp;name&nbsp;is"
+</span><span style="color: #007700">.</span><span style="color: #DD0000">"Nhung&nbsp;Nguyen\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+echo</span><span style="color: #DD0000">"this&nbsp;is&nbsp;a&nbsp;test.\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"Hello&nbsp;Worl:%s\n"</span><span style="color: #007700">,
+</span><span style="color: #0000BB">$x</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">var_dump</span>
+<span style="color: #007700">(</span><span style="color: #0000BB">$_REQUEST</span><span style="color: #007700">);&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$_FILES</span><span style="color: #007700">);<br />&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//2.b&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo</span>
+<span style="color: #DD0000">"&lt;h2&gt;Your&nbsp;choices&nbsp;were:&nbsp;&lt;/h2&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+echo</span><span style="color: #DD0000">"&lt;h5&gt;&nbsp;Customer&nbsp;ID&lt;/h5&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;
+</span><span style="color: #DD0000">'$_REQUEST["userid"]&nbsp;is:&nbsp;'</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$_REQUEST</span>
+<span style="color: #007700">[</span><span style="color: #DD0000">'userid'</span><span style="color: #007700">];<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo</span>
+<span style="color: #DD0000">"&lt;h5&gt;&nbsp;Full&nbsp;Name&lt;/h5&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span>
+<span style="color: #DD0000">'$_REQUEST["fullname"]&nbsp;is:&nbsp;'</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$_REQUEST</span>
+<span style="color: #007700">[</span><span style="color: #DD0000">'fullname'</span><span style="color: #007700">];<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo</span>
+<span style="color: #DD0000">"&lt;h5&gt;&nbsp;Gender&lt;/h5&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span>
+<span style="color: #DD0000">'$_REQUEST["gender"]&nbsp;is:&nbsp;'</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$_REQUEST</span>
+<span style="color: #007700">[</span><span style="color: #DD0000">'gender'</span><span style="color: #007700">];<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo</span>
+<span style="color: #DD0000">"&lt;h5&gt;&nbsp;File&nbsp;uploads&lt;/h5&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$_FILES</span><span style="color: #007700">[</span>
+<span style="color: #DD0000">'resume'</span><span style="color: #007700">]);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo</span><span style
+<span style="color: #DD0000">'$_REQUEST["cocode"]&nbsp;is:&nbsp;'</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$_REQUEST</span>
+<span style="color: #007700">[</span><span style="color: #DD0000">'cocode'</span><span style="color: #007700">];<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo</span>
+<span style="color: #DD0000">"&lt;h5&gt;&nbsp;Number&nbsp;of&nbsp;items&lt;/h5&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span>
+<span style="color: #DD0000">'$_REQUEST["num"]&nbsp;is:&nbsp;'</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$_REQUEST</span>
+<span style="color: #007700">[</span><span style="color: #DD0000">'num'</span><span style="color: #007700">];<br /><br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach(</span><span style="color: #0000BB">$color&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$index&nbsp;</span>
+<span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$cocode</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"&lt;br&gt;</span><span style="color: #0000BB">$index</span><span style="color: #DD0000">&nbsp;</span>
+<span style="color: #0000BB">$cocode</span><span style="color: #DD0000">&lt;/br&gt;"</span><span style="color: #007700">;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<br />
+br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">?&gt;<br /></span>
+&nbsp;&nbsp;&nbsp;<br /><br /><br /></span>

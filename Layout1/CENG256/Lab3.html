@@ -1,0 +1,55 @@
+
+<html>
+    <head>
+        <title>Drag and Drop Demo </title>
+    </head>
+    <body onDrop="event.preventDefault()">
+        <script>
+            
+           
+            function loadClip(event,source)
+            {
+                console.log("Drag Event");
+                console.log("Drag Event: ", event);  //We can analyze these in the console
+                console.log("Source:", source);
+                let JSONObject={ namet: source.name, url:source.src, valuet:source.value}
+     
+                event.dataTransfer.setData("text/plain", JSON.stringify(JSONObject) );             }
+            
+            function saveClip(event,target)
+            {
+               event.preventDefault(); 
+                let jString=event.dataTransfer.getData("text/plain");
+                jsObject=JSON.parse(jString); 
+                console.log("Transfered JSON data to: ", target.tagName); 
+                target.value="";
+                resultString=""; 
+                for(key in jsObject)
+                { 
+                   console.log(key, jsObject[key]);  
+                   if(target.tagName=="TEXTAREA") target.value+=`${key}: ${jsObject[key]} \n`;
+                    
+                    
+                 } 
+
+               
+ 
+               
+
+               
+            } 
+            
+           function saveImage(event,target)
+           {
+             console.log("Idea: Encode information in JSON format to drag and drop an image");   
+           }
+          
+            </script>
+        <h1>Drag and Drop Demo</h1> 
+<input for="job" draggable="true" ondragstart="loadClip(event,this)" name=cardid type=button value="job title"/>
+<textarea id="myTextArea" rows="8" cols="40" onDrop="saveClip(event,this)">Text Area</textArea><br>
+<label draggable="true"    ondragstart="loadClip(event,this)">Q#</label>
+<img name=penguinImage src="penguin.jpg" width="150" height="150" draggable="true" title="I'm a penguin!"
+                  ondragstart="loadClip(event,this)"/> 
+    </body>
+</html>

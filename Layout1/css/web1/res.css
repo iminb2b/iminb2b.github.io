@@ -1,0 +1,59 @@
+@media screen and (max-width: 1000px){
+	.theBand > .top,.theBand > .bottom,
+	.tour > .top, .tour> .mid, .tour> .bottom,
+	.contact>.bottom
+	{
+		width: 95%;
+	}
+} 
+@media screen and (max-width: 600px){
+	.nav> .left ul>li{
+		display: none;
+	}
+	.theBand{
+		height: 1700px;
+	}
+	.theBand> .top{
+		height: 500px;
+	}
+	.theBand> .bottom{
+		display: flex;
+		flex-direction: column;
+		height: 1200px;
+	}
+	.tour{
+		height: 2000px;
+	}
+	.tour> .bottom{
+		display: flex;
+		flex-direction: column;
+	}
+	.tour> .bottom>div{
+		width: 100%;
+		height:520px; 
+		margin-top: 20px;
+		padding-bottom: 20px;
+	}
+	.contact{
+		height: 500px;
+	}
+	.contact> .bottom{
+		height: 800px;
+		display: flex;
+		flex-direction: column;
+	}
+	.contact> .bottom> .left{
+		text-align: center;
+		width: 100%;
+		margin-bottom: 20px;
+
+	}
+	.contact> .bottom> .right{
+		text-align: center;
+		width: 100%;
+	}
+	.contact> .bottom> .right> .on, 
+	.contact> .bottom> .right>.mid{
+		width: 100%;
+	}
+}

@@ -1,0 +1,343 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+	font-family: "Lato", sans-serif;
+}	
+.nav{
+	position: sticky;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	margin-bottom: 0px;
+	z-index: 500;
+}
+.nav> .left{
+	float: left;
+}
+.nav> .left ul{
+	list-style-type: none;
+	line-height: 50px;
+	display: flex;
+	
+}
+.nav> .left ul li{
+	position: relative;
+}
+.nav>.left  > ul > li >a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin:0px;
+	padding: 0px;
+
+}
+.nav>.left  > ul > li >a>i{
+	line-height: 50px;
+
+}
+.nav>.left  > ul > li >a:hover{
+	background-color: gray;
+}
+.nav>.left  > ul > li:hover > ul.sub{
+	opacity: 1;
+	visibility: unset;
+}
+
+
+.nav>.left  > ul li ul.sub{
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	z-index: 1000;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.7s;
+	/*display: none;*/
+}
+.nav>.left  > ul li ul.sub> li>a{
+	text-decoration: none;
+	line-height: 50px;
+	color: black;
+	padding-left: 20px;
+	display: block;
+	width: 130px;
+	background-color: white;
+
+}
+.nav>.left  > ul li ul.sub> li>a:hover{
+	background-color: #eeeeee;
+}
+.nav> .right{
+	float: right;
+	line-height: 50px;
+	display: block;
+	width: 60px;
+	height: 50px;
+	text-align: center;
+
+}
+.nav> .right:hover{
+	background-color: orange;
+}
+.header{
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.header > .bg> img{
+	width: 100%;
+	position: contain;
+	opacity: 1;
+
+}
+.header > .bg{
+
+}
+.header > .on{
+	position: absolute;
+	color: white;
+	bottom: 20px;
+	right: 0;
+	text-align: center;
+	width: 100%;
+
+}
+.theBand{
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.theBand > .top{
+	width: 50%;
+	height: 400px;
+}
+.theBand > .top font{
+	font-size: 32px;
+	letter-spacing: 5px;
+	line-height: 80px;
+}
+.theBand > .top> span{
+	color: gray;
+	line-height: 60px;
+}
+.theBand > .top> p{
+	text-align: justify;
+	line-height: 25px;
+}
+
+
+.theBand > .bottom{
+	width: 50%;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+.theBand > .bottom> div>p{
+	line-height: 80px;
+}
+.theBand > .bottom> div>img{
+	width: 90%;
+}
+.tour{
+	width: 100%;
+	background-color: black;
+	height: 850px;
+}
+.tour > .top{
+	width: 50%;
+	height: 150px;
+	text-align: center;
+	padding-top: 60px;
+}
+.tour > .top > font{
+	font-size: 32px;
+	letter-spacing: 5px;
+	line-height: 80px;
+	color: white;
+
+}
+.tour > .top > p{
+	color: gray;
+}
+.mid{
+	width: 50%;
+	background-color: white;
+	height: 150px;
+	margin-bottom: 40px;
+}
+.mid > div{
+	width: 99%;
+	border: 1px solid #eeeeee;
+	height: 48px;
+	text-align: left;
+	line-height: 50px;
+}
+.mid > div> a{
+	text-decoration: none;
+	color: gray;
+	display: block;
+	line-height: 50px;
+	height: 50px;
+	margin-left: 0px;
+	float: left;
+	margin-right: 30px;
+
+}
+.mid > div> div{
+	height: 30px;
+	width: 80px;
+	text-align: center;
+	color: white;
+	background-color: red;
+	margin-top: 10px;
+	line-height: 30px;
+	margin-left: 110px;
+}
+.mid > div> span{
+	width: 28px;
+	height: 28px;
+	border-radius: 15px;
+	border: 1px solid black;
+	color: white;
+	float: right;
+	background-color: black;
+	margin-top: 10px;
+	line-height: 28px;
+	margin-right: 10px;
+	text-align: center;
+}
+.tour> .bottom{
+	width: 50%;
+	height: 400px;
+	display: flex;
+}
+.tour> .bottom> div{
+	height: 380px;
+	width: 31%;
+	background-color: white;
+	justify-content: space-between;
+}
+
+.tour> .bottom> div> img{
+	width: 100%;
+}
+.tour> .bottom> div> font{
+	font-weight: bold;
+	line-height: 50px;
+	margin-left: 20px;
+}
+.tour> .bottom> div> span{
+	color: gray;
+	margin-left: 20px;
+	line-height: 40px;
+}
+.tour> .bottom> div> p{
+	margin-left: 20px;
+	margin-right: 10px;
+	line-height: 25px;
+}
+.tour> .bottom> div> a{
+	margin-left: 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	width: 100px;
+	height: 30px;
+	background-color: black;
+	line-height: 30px;
+	margin-top: 15px;
+}
+.contact{
+	width: 100%;
+	height: 400px;
+}
+.contact > .top{
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+.contact > .top > font{
+	font-size: 32px;
+	letter-spacing: 5px;
+	line-height: 80px;
+}
+.contact > .top > p{
+	color: gray;
+}
+.contact > .bottom{
+	width: 50%;
+	display: flex;
+	height: 200px;
+}
+.contact > .bottom> .left{
+	width: 50%;
+	margin:0px;
+}
+
+.contact > .bottom> .left> ul{
+	list-style-type: none;
+	font-size: 20px;
+
+}
+.contact > .bottom> .left> ul> li {
+	line-height: 40px;
+}
+.contact > .bottom> .left> ul> li >span> a{
+	text-decoration: none;
+	color: black;
+}
+.contact > .bottom> .right{
+	width: 50%;
+}
+.contact > .bottom> .right> .on{
+	width: 48.3%;
+	height: 35px;
+	margin-bottom: 10px;
+}
+.contact > .bottom> .right> .mid{
+	width: 99%;
+	height: 35px;
+	margin-bottom: 10px;
+}
+.contact > .bottom> .right> .under{
+	float: right;
+	color: white;
+	width: 70px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	background-color: black;
+	border: none;
+	font-size: 16px;
+}
+.banner{
+	width: 100%;
+	
+}
+
+.banner> img{
+	width: 100%;
+	position: contain;
+}
+footer{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	padding-top: 50px;
+}
+footer> i{
+	font-size: 24px;
+	color: gray;
+}
+footer>p{
+	color: gray;
+	line-height: 60px;
+}
