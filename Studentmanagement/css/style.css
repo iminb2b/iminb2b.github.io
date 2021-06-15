@@ -15,7 +15,9 @@ body{
 	margin-left: 3%;
 
 }
-
+.fa{ 
+	line-height: 35px;
+}
 .form{
 	width: 100%;
 	border: 1px solid  #b5dfcf;
@@ -177,6 +179,7 @@ h3{
 	margin-top: 32.5px;
 	height: 35px;
 	width: 35px;
+	box-sizing: border-box;
 	text-align: center;
 	line-height: 35px;
 	border-radius: 5px;
@@ -186,6 +189,7 @@ h3{
 	margin-right: 10px;
 	color: #219f9c;
 	cursor: pointer;
+	padding-top: 11px;
 }
 .filter, .search{
 	line-height: 100px;
