@@ -1,0 +1,219 @@
+
+body{
+	float: left;
+	width: 100%;
+	display: flex;
+	font-family: 'Arial', sans-serif;
+    font-size: 14px;
+	color: #219f9c;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	width: 28%;
+	margin: 50px auto;
+	margin-left: 3%;
+
+}
+
+.form{
+	width: 100%;
+	border: 1px solid  #b5dfcf;
+	border-radius: 20px;
+	padding: 20px;
+	float: left;
+	background-color: #b5dfcf;
+	margin-bottom: 50px;
+	box-sizing: border-box;
+}
+.random{
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 20px;
+	float: left;
+	background-color: #b5dfcf;
+}
+.under{
+	background-color: #b5dfcf;
+	margin-top: 50px;
+	float: right;
+	width: 60%;
+	border: 1px solid gray;
+	margin-right: 3%;
+	border-radius: 20px;
+}
+
+
+label{
+	width: 27%;
+	display: block;
+	float: left;
+
+}
+input{
+	width: 70%;
+	text-indent: 10px;
+	border: none;
+	border-radius: 5px;
+}
+label, input{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+#male , #female{
+	height: 14px;
+	width: 14px;
+	line-height: 25px;
+	margin-top: 5px;
+}
+#reset, #submit, .create{
+	float: right;
+	margin-left: 20px;
+	background-color: white;
+	border: 2px solid #b5dfdf;
+	width: 100px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+#reset:hover, #submit:hover, .create:hover{
+	background-color: #b5dfcf;
+	color: #ffffff;
+	border: 2px solid white;
+	outline: none;
+}
+p{
+	margin-left: 29%;
+	color: red;
+	float: left;
+	width: 70%;
+}
+
+.top{
+	height: 100px;
+	line-height: 100px;
+	padding: 0 40px;
+}
+
+table{
+	width: 90%;
+	margin: 0 5%;
+	margin-bottom: 50px;
+	border: white;
+
+}
+th{
+	color: #ffffff;
+	background-color: #219f9c;
+	height: 40px;
+}
+.gray{
+	background-color: #eeeeee;
+}
+.white{
+	background-color: #ffffff;
+}
+tr{
+	font-size: 13px;
+	line-height: 20px;
+}
+.id{
+	width: 5%;
+	text-align: center;
+}
+.name, .email,.addr{
+	width: 20%;
+	padding-left: 5px;
+}
+.phone,.gender{
+	width: 10%;
+	text-align: center;
+
+}
+.check{
+	width: 4%;
+	line-height: 40px;
+}
+.check > input{
+	width: 70%;
+	line-height: 40px;
+
+}
+.action{
+	width:14%;
+	text-align: center;
+
+}
+#check{
+	background-color: red;
+}
+button{
+	height: 35px;
+}
+a{
+	text-decoration: none;
+	color: #219f9c;
+	cursor: pointer;
+}
+a:hover{
+	color: white;
+}
+tr:hover{
+	color: white;
+	background-color: #b5dfcf;
+	cursor: pointer;
+}
+
+.top .right{
+	float: right;
+	display: flex;
+	line-height: 100px;
+}
+h3{
+	display: inline;
+}
+.fa-trash-alt, .fa-filter, .fa-undo-alt{
+	margin-top: 32.5px;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 5px;
+	background-color: white;
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #219f9c;
+	cursor: pointer;
+}
+.filter, .search{
+	line-height: 100px;
+	height: 35px;
+	margin-top: 32.5px;
+	color: #219f9c;
+	outline: none;
+	border: none
+}
+.filter{
+	cursor: pointer;
+	border-radius: 5px;
+}
+.search{
+	width: 280px;
+}
+.right{
+	position: relative;
+}
+.fa-search{
+	position: absolute;
+	top: 45px;
+	right: 65px;
+	cursor: pointer;
+}
+.fa-window-minimize{
+	cursor: pointer;
+}
+.form,.random, .under{
+	border: none;
+}

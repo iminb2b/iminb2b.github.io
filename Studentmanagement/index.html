@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./res.css">
+	<script src="./js/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+	<script src="https://kit.fontawesome.com/82002e720b.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/> 
+	<meta charset="utf-8">
+
+</head>
+
+<body>
+<div class="content">
+<div class="form">
+	<i class="fas fa-window-minimize" style="float: right;" onclick="miniForm()"></i>
+
+<form class="info">
+	<h2>Student Information</h2>
+
+	<input type="text" id="index" style=" display: none;">
+	<label id="labelname">Name</label>
+	<input type="text" name="name" id="name"  placeholder="name...">
+	<label>Email</label>
+	<input type="Email" name="email" id="email" placeholder="email...">
+	<p id="unique" style="display: none;">Your email is used. </p>
+	<label>Phone</label>
+	<input type="text" name="phone" id="phone" placeholder="phone...">
+
+	<label>Address</label>
+	<input type="text" name="addr" id="addr" placeholder="address...">
+	<label>Gender</label>
+	<input type="radio" name="gender" id="male" value="1">Male
+	<input type="radio" name="gender" id="female" value="2">Female<br><br>
+
+	<button id="reset">Reset</button>
+	<button id="submit">Submit</button>	
+</form>
+</div>	
+<div class="random">
+	<label>Random Create:</label>
+	<input type="text" name="" id="number" placeholder="Enter number of students">
+	<button class="create" onclick="autoCreate()">Create</button>
+</div>
+</div><br>
+</div>
+<div class="under">
+	<div class="top">
+		<h3>List of Student</h3>
+		<div class="right">
+			<i class="fas fa-trash-alt" onclick="delStudent()"></i>
+			<select class="filter">
+
+				<option value="3">Gender Filter</option>
+				<option value="3">All Gender</option>
+				<option value="1">Male</option>
+				<option value="2">Female</option>
+			</select>
+			<i class="fas fa-filter " onclick="filter();"></i>
+		
+			<input type="text" class="search" placeholder="Search by name, email, or phone..." id="search" >
+			<i class="fas fa-search" onclick="findStudent()"></i>
+			<i class="fas fa-undo-alt" onclick="getData()"></i>
+		</div>
+		
+	</div>
+
+	<table border="1" cellspacing="0" cellpadding="0" >
+		<th><input type="checkbox" id="all" onclick="selectAll(1)"></th>
+		<th>#</th>
+		<th>Name</th>
+		<th>Email</th>
+		<th>Phone</th>
+		<th>Address</th>
+		<th>Gender</th>
+		<th>Action</th>
+		<tbody id="tbody"></tbody>
+	</table>
+</div>
+	<script src="./source.js"></script>
+
+</body>
+</html>
