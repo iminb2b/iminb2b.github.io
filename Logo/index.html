@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav nav-1 transparent">
+        <div class="nav-left left">
+            <div class="menu">
+                <a href="#home">HOME</a>
+            </div>
+            <div class="menu">
+                <a href="#about"><i class="fas fa-user"></i>ABOUT</a>
+            </div>
+            <div class="menu">
+                <a href="#portfolio"><i class="fas fa-th"></i>PORTFOLIO</a>
+            </div>
+            <div class="menu">
+                <a href="#contact"><i class="fas fa-envelope"></i>CONTACT</a>
+            </div>
+        </div>
+        <div class="nav-right nav-1 right">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="nav nav-2 transparent">
+        <div class="nav-left left">
+            <div class="menu">
+                <a href="#home">HOME</a>
+            </div>
+            
+        </div>
+        <div class="nav-right nav-2 right" onclick="showMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="menu-right grid">
+            <div class="">
+                <a href="#about">ABOUT</a>
+            </div>
+            <div class="">
+                <a href="#portfolio">PORTFOLIO</a>
+            </div>
+            <div class="">
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="">
+                <a href="#contact">SEARCH</a>
+            </div>
+        </div>
+    </div>
+    <div id="logo" class="logo">
+
+    </div>
+    <div id="about" class="grid wide m-12 c-12 l-12" >
+        <h1>ABOUT ME</h1>
+        <p class="i-l"><i>I love photography</i></p>
+        <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="myname grid row wide">
+        <div class="myname-left l-6 m-6 c-12">
+            <h4><i class="fas fa-user"></i>   My Name</h4>
+            <img src="./images/avatar_hat.jpg">
+        </div>
+        <div class="myname-right l-6 m-6 c-12">
+            <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <div class="hobby grid wide">
+        <h4>Im really good at</h4>
+        <p><i class="fas fa-camera"></i>Photography</p>
+        <div class="percentage-1"></div>
+        <p><i class="fas fa-laptop"></i>Web Design</p>
+        <div class="percentage-2"></div>
+        <p><i class="fas fa-image"></i>Photoshop</p>
+        <div class="percentage-3"></div>
+
+    </div>
+    <div class="numbers">
+        <div class="grid wide row">
+            <div class="number m-3 l-3 c-12">
+                <p>14+</p>
+                <p>Partners</p>
+            </div>
+            <div class="number m-3 l-3 c-12">
+                <p>55+</p>
+                <p>Projects Done</p>
+            </div>
+            <div class="number m-3 l-3 c-12">
+                <p>89+</p>
+                <p>Happy Clients</p>
+            </div>
+            <div class="number m-3 l-3 c-12">
+                <p>14+</p>
+                <p>Meetings</p>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio" class="portfolio">
+        <p>PORTFOLIO</p>
+    </div>
+    <div class="myWork grid wide ">
+        <div class="intro">
+            <p>MY WORK</p>
+            <p><i>Here are some of my latest lorem work ipsum tipsum</i></p>
+            <p><i>Click on the image to make them bigger</i></p>
+        </div> 
+        <div class="images row">
+            <img class="col l-3 m-6 c-6" src="./images/p1.jpg">
+            <img class="col l-3 m-6 c-6" src="./images/p2.jpg">
+            <img class="col l-3 m-6 c-6" src="./images/p3.jpg">
+            <img class="col l-3 m-6 c-6" src="./images/p4.jpg">
+            <img class="col l-3 m-6 c-6" src="./images/p5.jpg">
+            <img class="col l-3 m-6 c-6" src="./images/p6.jpg">
+            <img class="col l-3 m-6 c-6" src="./images/p7.jpg">
+            <img class="col l-3 m-6 c-6" src="./images/p8.jpg">
+
+        </div>
+        <button class="">LOADMORE</button>
+    </div>
+    <div id="contact" class="contact">
+        <p>CONTACT</p>
+    </div>
+    <div class="contacts grid wide">
+        <div class="intro">
+            <p>WHERE I WORK</p>
+            <p><i>I'd love your feedback!</i></p>
+        </div>
+        <div class="grid wide row">
+            <div class="col l-4 m-4 c-4">
+                <img src="./images/map.jpg">
+            </div>
+            <div class="col l-8 m-8 c-8">
+                <p><i class="fas fa-map-marker-alt"></i>Chicago, US</p>
+                <p><i class="fas fa-phone-alt"></i>Phone: +00 151514</p>
+                <p><i class="fas fa-envelope"></i>Email: email.com.vn</p>
+                <p>Swing by for a cup of <i class="fas fa-coffee"></i>, or leave me a note: </p>
+                <form class=""  action="" target="_blank">
+                    <div class="" >
+                        <input type="text" class="col l-6 m-6 c-6" placeholder="Name" required name="Name">
+                        <input type="email" class="col l-6 m-6 c-6" placeholder="Email" required name="Email">
+                    </div>
+                    <div class="text">
+                        <input type="text" class="col l-12 m-12 c-12" placeholder="Message" required name="Message">
+
+                    </div>
+                    <button class="right"><i class="fas fa-paper-plane"></i>SEND MESSAGE</button>
+                </form>
+            
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+        <a href="#logo"><i class="fas fa-arrow-up"></i> To the top</a>
+        <p><i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-snapchat"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i></p>
+        <p>Powered by Min</p>
+    </footer>
+
+    <script >
+        window.onscroll = function(){
+            myFunction()
+        };
+        function myFunction(){
+            var nav = document.querySelector('.nav');
+            if(document.body.scrollTop >100||document.documentElement.scrollTop>100){
+                nav.classList.add('white')
+                nav.classList.remove('transparent')
+            }else{
+                nav.classList.add('transparent');
+                nav.classList.remove('white')
+            }
+        }
+        function showMenu(){
+            var menu =document.querySelector('.nav-right')
+            var show =document.querySelector('.menu-right')
+            menu.classList.toggle('active')
+            show.classList.toggle('show')
+        }
+    </script>
+</body>
+</html>
