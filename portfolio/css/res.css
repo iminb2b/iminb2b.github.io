@@ -1,0 +1,8 @@
+@media (min-width:900px){
+    .project{
+        width: 45%;
+        float: left;
+        margin: 20px 2.5% ;
+    }
+    
+}
