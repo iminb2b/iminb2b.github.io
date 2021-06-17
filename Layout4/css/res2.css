@@ -1,0 +1,105 @@
+@media (max-width: 1000px){
+.head-right{
+	display: none;
+}
+.top > h3{
+	font-size: 24px;
+}
+.logo{
+	display: none;
+}
+.logo2{
+	width: 100%;
+	display: block;
+	float: left;
+}
+.logo2 > .nav{
+	position: relative;
+	float: right;
+}
+.nav > .fas{
+	position: absolute;
+	right: 0;
+	line-height: 70px;
+	font-size: 30px;
+	margin-right: 5%;
+}
+.nav-show{
+	position: absolute;
+	top: 70px;
+	right: 0;
+	background-color: white;
+	width: 250px;
+	z-index: 1000;
+}
+.nav-show > ul ,
+.nav-show > ul > li{
+	width: 100%;
+	line-height: 40px;
+	text-indent:50px; 
+	
+}
+.nav-show > ul > li > a {
+	display: block;
+	text-align: left;
+	width: 100%;
+	color: #7cd0f5;
+	padding: 0;
+	border-bottom: 1px solid white;
+
+
+}
+.nav-show > ul > li > a:hover {
+	height: 40px;
+	width: 100%;
+	border-radius: 0;
+	background-color: #5abfec;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 0;
+	color: white;
+}
+
+.slideShow-right{
+	display: flex;
+	flex-direction: column;
+}
+.slideShow-right > div{
+	
+	width: 100%;
+}
+.blog1-right>div{
+	display: flex;
+	flex-direction: column;
+}
+}
+@media (max-width: 650px){
+.sale > .product > div {
+	width: 46%;
+	margin-right: .6%;
+	float: left;
+}
+.clear1{
+	clear: both;
+}
+.left1{
+	float: left;
+}
+.hide{
+	display: none;
+}
+.feature-product > div, .new-product > div, .best-product > div{
+	width: 47%;
+}
+.blogs{
+	display: flex;
+	flex-direction: column;
+}
+.blogs > div{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.footer-top{
+	flex-direction: column;
+}
+}

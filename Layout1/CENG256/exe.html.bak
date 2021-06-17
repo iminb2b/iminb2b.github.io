@@ -1,8 +1,0 @@
-<!DOCTYPE html> 
-
-<html>
-  <head><title>Min's JavaScript</title></head>
-  <body> 
-   alert("hellio");
-  </body>
-</html>

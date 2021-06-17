@@ -1,0 +1,153 @@
+@media (max-width: 800px){
+body, .head, .logo2{
+	width: 100%;
+	
+}
+html{
+	width: 100%;
+}
+.logo{
+	display: none;
+}
+.logo2{
+	display: block;
+	height: 150px;
+	background-color: #7cd0f5;
+
+}
+.logo2 > .nav{
+	position: relative;
+}
+.nav > .fas{
+	float: right;
+	line-height: 140px;
+	font-size: 30px;
+	margin-right: 5%;
+}
+.nav-left{
+	position: absolute;
+	top: 140px;
+	right: 0;
+	background-color: #7cd0f5;
+	width: 250px;
+	z-index: 1000;
+}
+.nav-left > ul ,
+.nav-left > ul > li{
+	width: 100%;
+	line-height: 40px;
+	text-indent:50px; 
+	
+}
+.nav-left > ul > li > a {
+	display: block;
+	text-align: left;
+	width: 100%;
+	color: white;
+	padding: 0;
+	border-bottom: 1px solid white;
+
+
+}
+.nav-left > ul > li > a:hover {
+	height: 40px;
+	width: 100%;
+	border-radius: 0;
+	background-color: #5abfec;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 0;
+}
+.bestseller{
+	width: 600px;
+	height: 281px;
+	background-color: white;
+	position: absolute;
+	color: #7cd0f5;
+	top: 40px;
+	left: -300px;
+	display: flex;
+	justify-content: space-around;
+	z-index: 1;
+	display: none;
+
+}
+.backpack {
+	position: absolute;
+	top: 40px;
+	left: -350px;
+	width: 300px;
+	height: 200px;
+	display: flex;
+	border: 1px solid gray;
+	justify-content: space-around;
+	background-color:white;
+	z-index: 10;
+	display: none;
+}
+
+.content-left{
+	width: 100%;
+	float: right;
+}
+.content-right{
+	float: left;
+}
+.category{
+	display: none;
+}
+.new-product{
+	float: left;
+}
+.product{
+	height: 260px;
+}
+.btn{
+	text-align: center;
+}
+.content-right{
+	width: 100%;
+}
+.slideShow{
+	width: 100%;
+	height: auto;
+}
+.fashion-product{
+	flex-direction: column;
+}
+.fashion-left, .fashion-right{
+	width: 100%;
+}
+.fashion-left{
+	margin-bottom: 50px;
+}
+.news{
+	margin-bottom: 50px;
+}
+}
+@media (max-width: 800px){
+.product{
+	height: 200px;
+}
+.slideShow{
+	display: flex;
+	flex-direction: column;
+}	
+.slideShow-left, .slideShow-right{
+	width: 100%;
+}
+.fashion-right {
+	flex-direction: column;
+}
+.fashion-right > div{
+	width: 100%;
+	display: flex;
+}
+.fashion-right > div > img{
+	width: 40%;
+}
+.footer-top{
+	display: flex;
+	flex-direction: column;
+}
+}

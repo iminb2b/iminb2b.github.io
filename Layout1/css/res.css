@@ -1,0 +1,165 @@
+@media (max-width: 1020px){
+.content{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.head-right{
+	display: none;
+}
+
+.new{
+	float: left;
+}
+.head-left{
+	width: 100%;
+}
+.nav-right > .search{
+	display: none;
+}
+.slideShow{
+	display: flex;
+	flex-direction: column;
+}
+.slideShow-left, .slideShow-right {
+	width: 100%;
+}
+.slideShow-right > img{
+	float: left;
+	width: 49%; 
+}
+.slideShow-right > img:first-child{
+	margin-right: 2%;
+}
+
+.best{
+	width: 100%;
+}
+.cmt{
+	width: 100%;
+}
+.blogs{
+	display: flex;
+	flex-direction: column;
+}
+.blogs > div {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.news{
+	display: flex;
+	flex-direction: column;
+}
+.news-left, .news-right{
+	width: 100%;
+}
+.footer-top{
+	display: flex;
+	flex-direction: column;
+}
+.footer-mid{
+	display: flex;
+	flex-direction: column;
+}
+.footer-bottom > .footer-right{
+	float: left;
+	width: 100%;
+}}
+@media (max-width: 760px){
+.feature-bottom > img{
+	width: 100%;
+
+}
+.sale-product > div {
+	width: 33.33%;
+}
+}
+@media (max-width: 660px){
+
+.logo{
+	display: flex;
+	flex-direction: column;
+}
+.nav1{
+	display: none;
+}
+.logo2{
+	width: 100%;
+	display: block;
+	float: left;
+}
+.logo2 > .nav{
+	position: relative;
+	float: left;
+}
+.nav > .fas{
+	position: absolute;
+	left: 0;
+	line-height: 70px;
+	font-size: 30px;
+	margin-right: 5%;
+}
+.nav-show{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	background-color: white;
+	width: 250px;
+	z-index: 1000;
+}
+.nav-show > ul ,
+.nav-show > ul > li{
+	width: 100%;
+	line-height: 40px;
+	text-indent:50px; 
+	
+}
+.nav-show > ul > li > a {
+	display: block;
+	text-align: left;
+	width: 100%;
+	color: #4c4b6c;
+	padding: 0;
+	border-bottom: 1px solid white;
+
+
+}
+.nav-show > ul > li > a:hover {
+	height: 40px;
+	width: 100%;
+	border-radius: 0;
+	background-color: #4c4b6c;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 0;
+	color: white;
+}
+
+.slideShow-right{
+	display: flex;
+	flex-direction: column;
+}
+
+.slideShow-right> img{
+	width: 100%;
+	margin-top: 10px;
+}
+.feature-product > div{
+	width: 45%;
+	margin-right: 5%;
+
+}
+.slideShow-right> div {
+	width: 100%;
+
+}
+
+.best-product > div {
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	margin: 0;
+
+}}
