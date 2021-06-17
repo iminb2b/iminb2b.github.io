@@ -1,0 +1,120 @@
+@media (max-width: 808px){
+.bar1{
+	display: none;
+}
+.bar2{
+	display: block;
+}
+.bar2 > button{
+	height: 50px;
+	border: none;
+	color: #ff311f;
+	font-size: 30px;
+	cursor: pointer;
+	outline: none;
+	background-color: white;
+
+}
+.nav{
+	display: none;
+}
+.header{
+	position: relative;
+}
+.nav1{
+	position: absolute;
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	top: 50px;
+	right: 0;
+	width: 200px;
+	display: none;
+
+}
+.nav1 > ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.nav1 > ul > li > a{
+	display: block;
+	height: 50px;
+	background-color: white;
+	color: #ff311f;
+	text-decoration: none;
+	width:200px;
+	text-indent: 20px;
+	line-height: 50px;
+	border-bottom: 1px solid #ff311f; 
+}
+.service{
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+}
+.service > div > img {
+	float: left;
+	width: 80px;
+	height: auto;
+	margin: 15px;
+	margin-bottom: 30px;
+
+}
+.service > div > h4 {
+	margin-top:10px;
+}
+.offer{
+	display: none;
+}
+.offer1{
+	width: 100%;
+	background-color: #f6fbff;
+  	position: relative;
+
+}
+.offer1 > h2{
+	font-size: 52px;
+	color: #001d38;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 50px;
+}
+.offer1 > div {
+	width: 90%;
+	margin-left: 5%;
+}
+.offer1 > div > img{
+	width: 100%;
+}
+
+.page2, .page3, .page4, .page5, .page6{
+	display: none;
+}
+.about{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+
+}
+.about-left{
+	width: 100%;
+	margin: 0px;
+	height: auto;
+}
+.about-left > img{
+	width: 100%;
+
+
+}
+.about-left > div {
+	display: none;
+}
+.about-right{
+	width: 90%;
+	margin-left: 5%;
+
+}
+.about-right > h5 {
+	margin-top: 0;
+}
