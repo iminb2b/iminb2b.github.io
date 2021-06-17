@@ -1,0 +1,10 @@
+@media (min-width:900px){
+    .project{
+        width: 45%;
+        margin: 20px 2.5% ;
+    }
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
